@@ -1,4 +1,4 @@
-/* Generated on: Mon Feb 15 2021 15:23:44 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Feb 15 2021 17:02:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -445,6 +445,7 @@ figcaption {
 }
 
 .content {
+  overflow: visible;
   margin-left: 19%;
   padding-left: 6px;
 }
@@ -461,6 +462,7 @@ figcaption {
   left: 0px;
   top: 0px;
   bottom: 0px;
+  z-index: 100;
   width: 20%;
   height: 100%;
   padding: 10px;
@@ -747,7 +749,97 @@ figcaption {
 }
 
 .section-2 {
-  height: 40vh;
+  height: 45vh;
+}
+
+.slider {
+  height: 400px;
+}
+
+.text-block-3 {
+  position: absolute;
+  left: 160px;
+  top: 70px;
+  right: auto;
+  bottom: auto;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.image-3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+.text-block-4 {
+  position: absolute;
+  left: 160px;
+  top: 100px;
+  right: auto;
+  bottom: auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  line-height: 110%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-block-5 {
+  position: absolute;
+  left: 160px;
+  top: 200px;
+  right: auto;
+  bottom: auto;
+  font-family: Montserrat, sans-serif;
+  color: #ff131d;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 700;
+}
+
+.text-span {
+  font-size: 72px;
+}
+
+.link {
+  position: absolute;
+  left: 8%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+}
+
+.link-2 {
+  position: absolute;
+  left: 15%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+}
+
+.link-block-2 {
+  position: absolute;
+  left: 160px;
+  top: 290px;
+  right: auto;
+  bottom: auto;
+  padding: 5px 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff131d;
+  border-radius: 100px;
+  font-family: Montserrat, sans-serif;
+  color: #ff131d;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link-block-3.link-block-2 {
+  left: 300px;
 }
 
 @media screen and (max-width: 991px) {
