@@ -1,4 +1,4 @@
-/* Generated on: Mon Feb 15 2021 14:24:02 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Feb 15 2021 15:16:46 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -446,6 +446,7 @@ figcaption {
 
 .content {
   margin-left: 19%;
+  padding-left: 6px;
 }
 
 .post-title-section {
@@ -504,15 +505,18 @@ figcaption {
 
 .logo {
   height: 20vh;
+  min-height: 140px;
   padding: 30px;
 }
 
 .menu1 {
   height: 40vh;
+  min-height: 380px;
 }
 
 .menu2 {
   height: 40vh;
+  min-height: 240px;
 }
 
 .image {
@@ -548,6 +552,11 @@ figcaption {
   align-content: flex-start;
   color: #fff;
   text-decoration: none;
+}
+
+.link-block.link_li {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .link-block.button_menu {
@@ -669,7 +678,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -734,6 +744,10 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+}
+
+.section-2 {
+  height: 40vh;
 }
 
 @media screen and (max-width: 991px) {
