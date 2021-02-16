@@ -1,4 +1,4 @@
-/* Generated on: Mon Feb 15 2021 17:02:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Feb 16 2021 14:55:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -568,7 +568,7 @@ figcaption {
   box-shadow: 0 0 1px 0 #fff;
 }
 
-.link-block.button_menu:hover {
+.link-block.button_menu.on_hover {
   box-shadow: 0 0 3px 0 #000;
 }
 
@@ -769,6 +769,7 @@ figcaption {
 }
 
 .image-3 {
+  width: 100%;
   font-family: Montserrat, sans-serif;
   font-weight: 600;
 }
