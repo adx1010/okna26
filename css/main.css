@@ -1,4 +1,4 @@
-/* Generated on: Tue Feb 16 2021 14:55:47 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 01 2021 14:44:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -749,7 +749,7 @@ figcaption {
 }
 
 .section-2 {
-  height: 45vh;
+  height: 400px;
 }
 
 .slider {
@@ -841,6 +841,207 @@ figcaption {
 
 .link-block-3.link-block-2 {
   left: 300px;
+}
+
+.section-3 {
+  height: 1140px;
+  padding: 40px;
+  line-height: 100%;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.div-block-4._5 {
+  margin-top: 59px;
+}
+
+.image-4 {
+  position: absolute;
+  z-index: auto;
+  display: inline-block;
+  width: 850px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.link-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 290px;
+  height: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-radius: 30px;
+  background-image: linear-gradient(100deg, #ff8316, #ff001f);
+  text-decoration: none;
+}
+
+.text-block-6 {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 135%;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.image-5 {
+  position: absolute;
+  display: block;
+}
+
+.image-6 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.text-block-7 {
+  display: inline-block;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  line-height: 100%;
+}
+
+.text-span-2 {
+  font-weight: 700;
+}
+
+.div-block-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.div-block-6 {
+  width: 200px;
+  height: 100%;
+  background-image: url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ec39c538ef85a5b086c_counter.svg");
+  background-position: 0% 50%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ec9f7d0daf702e0ccba_measure%20%20bg.png");
+  background-position: 100% 0%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.div-block-8 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 290px;
+  height: 130%;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-left: -20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ed249ea9076aabe02de_Union.svg");
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 991px) {
