@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 14:44:47 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Mar 04 2021 11:36:36 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -845,7 +845,8 @@ figcaption {
 
 .section-3 {
   height: 1140px;
-  padding: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
   line-height: 100%;
 }
 
@@ -855,6 +856,8 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 85px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1042,6 +1045,92 @@ figcaption {
   background-position: 100% 50%;
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+.div-block-9 {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 384px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-areas: "Area Area-2 Area-3"
+    "Area-4 Area-5 Area-6";
+  -ms-grid-columns: 1fr 16px 1fr 16px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto 16px auto;
+  grid-template-rows: auto auto;
+}
+
+.div-block-10 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.19), hsla(0, 0%, 100%, 0)), url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ee795199b4dad0a1943_okna.png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-11 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.19), hsla(0, 0%, 100%, 0)), url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ee75d7de47ce737dedd_al.png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-12 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.19), transparent), url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ee74aa5c7bfe72041af_peregorodki.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-13 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.19), transparent), url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ee7f0c5d541d7a53f26_shutterstock_106400603.png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-14 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.19), transparent), url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ee75d7de47ce737dedd_al.png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-15 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.19), transparent), url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ee7a7bfcf4b125e91ce_grid.png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-16 {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: -70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-17 {
+  width: 10px;
+  height: 100%;
+  background-color: #ffb800;
+}
+
+.text-block-8 {
+  width: 80%;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 991px) {
