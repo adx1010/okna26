@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 04 2021 11:36:36 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Mar 04 2021 14:19:45 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1052,6 +1052,8 @@ figcaption {
   display: grid;
   width: 100%;
   height: 384px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -1131,6 +1133,89 @@ figcaption {
   font-size: 24px;
   line-height: 100%;
   font-weight: 800;
+}
+
+.div-block-18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 100px;
+  background-image: none;
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.div-block-19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.div-block-20 {
+  width: 25%;
+  height: 100%;
+  background-image: url("https://uploads-ssl.webflow.com/602696f6a71e04576ff798d9/60269ee7a71e04b663f7bee0_kbe-prof.jpg");
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-block-21 {
+  width: 10%;
+  height: 100%;
+}
+
+.heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.text-span-3 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.paragraph {
+  font-family: Lato, sans-serif;
+  color: #1b2529;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.div-block-22 {
+  position: static;
+  bottom: -10%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
