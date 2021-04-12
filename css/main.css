@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 04 2021 15:03:54 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 12 2021 14:21:57 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12,6 +12,18 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #333;
@@ -1314,6 +1326,112 @@ figcaption {
   text-transform: uppercase;
 }
 
+.section-5 {
+  height: 460px;
+  margin: 70px;
+}
+
+.heading-2 {
+  padding-right: 60px;
+  padding-left: 60px;
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.grid {
+  height: 400px;
+  grid-template-areas: "Area Area-2"
+    "Area-3 Area-4";
+}
+
+.div-block-25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.heading-3 {
+  font-family: Montserrat, sans-serif;
+  color: #2c839e;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.image-10 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.text-block-10 {
+  font-family: Lato, sans-serif;
+  color: #1b2529;
+  font-weight: 400;
+}
+
+.div-block-27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 10px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.div-block-28 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 10px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.div-block-29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 10px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-bar {
     max-width: none;
@@ -1477,4 +1595,15 @@ figcaption {
     font-size: 14px;
     line-height: 150%;
   }
+}
+
+#w-node-_6a9c7554-ffc3-8efb-3dec-e3f68bba54ed-de65a353 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
 }
