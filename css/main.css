@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 12 2021 15:04:46 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Apr 15 2021 14:29:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1507,6 +1507,176 @@ figcaption {
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.section-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 454px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-31 {
+  width: 95%;
+  height: 354px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.heading-5 {
+  width: 560px;
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.link-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 201px;
+  height: 48px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100px;
+  background-image: linear-gradient(50deg, #ffb800, #ffe500);
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.div-block-32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25%;
+}
+
+.div-block-33 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+.text-block-12 {
+  font-family: Lato, sans-serif;
+  color: #2c839e;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.text-block-13 {
+  margin-top: 15px;
+  font-family: Lato, sans-serif;
+  color: #c2cacc;
+  font-size: 13px;
+}
+
+.image-11 {
+  margin-bottom: 55px;
+}
+
+.div-block-34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  height: 100%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.div-block-35 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 75%;
+}
+
+.text-block-14 {
+  width: 605px;
+  font-family: Lato, sans-serif;
+  color: #1b2529;
+  font-size: 20px;
+  line-height: 144%;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.div-block-36 {
+  width: 90%;
+  height: 100%;
+}
+
+.text-block-15 {
+  width: 605px;
+  margin-top: 15px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.text-span-4 {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 991px) {
