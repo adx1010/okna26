@@ -315,7 +315,16 @@
 	<div class="section-8">
 	   <h2 class="heading-6">Заказать бесплатный замер</h2>
 	   <div class="w-form">
-	      <form id="email-form" name="email-form" data-name="Email Form"><label for="name" class="field-label">Ваше имя</label><input type="text" class="text-field-2 w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name"><label for="Phone" class="field-label-2">Номер телефона</label><input type="tel" class="text-field-3 w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="" id="Phone" required=""><label class="w-checkbox"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input"><span class="checkbox-label w-form-label">Нажимая на кнопку, вы даете согласие на <span class="text-span-5">обработку своих персональных данных</span></span></label><input type="submit" value="Вызвать замерщика" data-wait="Please wait..." class="submit-button w-button"></form>
+	      <form id="email-form" name="email-form" data-name="Email Form" action="#" method="post">
+	      	<label for="name" class="field-label">Ваше имя</label>
+	      	<input type="text" class="text-field-2 w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name">
+	      	<label for="Phone" class="field-label-2">Номер телефона</label>
+	      	<input type="tel" class="text-field-3 w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="" id="Phone" required="">
+	      	<label class="w-checkbox">
+	      		<input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input"><span class="checkbox-label w-form-label">Нажимая на кнопку, вы даете согласие на <span class="text-span-5">обработку своих персональных данных</span></span>
+	      	</label>
+	      	<input type="submit" value="Вызвать замерщика" data-wait="Please wait..." class="submit-button w-button">
+	      </form>
 	      <div class="w-form-done">
 	         <div>Thank you! Your submission has been received!</div>
 	      </div>
